@@ -1,0 +1,42 @@
+#outerbox {
+    background-color: red;
+    position: relative;
+    top: 200px;
+    left: 515px;
+    width: 500px;
+    height: 300px;
+}
+#innerbox {
+    background-color: blue;
+    position: absolute;
+    top: 75px;
+    width: 500px;
+    height: 150px;
+}
+#circle {
+    background-color: white;
+    position: relative;
+    top: 5px;
+    left: 180px;
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+}
+#q {
+    color: black;
+    text-align: center;
+    position: relative;
+    font-size: 2rem;
+    top: 25px;
+    color: white;
+}
+#w {
+    color: black;
+    text-align: center;
+    position: relative;
+    font-size: 2rem;
+    top: 46.6666666px;
+}
+p {
+    margin: 0;
+}
