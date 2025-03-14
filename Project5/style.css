@@ -1,0 +1,21 @@
+#body {
+background-color: black;
+}
+.poster {
+    border-width: 4px;
+    border-style: double;
+    border-color: rgb(171, 251, 239);
+    width: 450px;
+    height: 300px;
+    padding: 6px 6px 6px 6px;
+    margin: 100px 525px 20px 525px;
+}
+#h1 {
+    font-size: 7rem;
+}
+.text {
+    text-transform : uppercase;
+    text-align: center;
+    color: white;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
