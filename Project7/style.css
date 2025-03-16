@@ -1,0 +1,96 @@
+body{
+    background-color: white;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin: 50px 50px 0px 50px;
+    min-height: 90vh;
+    display: flex;
+    flex-direction: column;
+}
+h1{
+    font-size: 5rem;
+}
+span{
+    color: darkorchid;
+}
+.text {
+    text-align: justify;
+    margin-right: 50px;
+}
+.pics {
+    height: 200px;
+    width: 250px;
+    float: left;
+    margin-right: 50px;
+}
+.main{
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+}
+footer {
+    text-align:left;
+    color:darkorchid;
+    clear: left;
+}
+@media (max-width: 650px) {
+    h1 {
+         font-size: 3.5rem;
+        text-align: center;
+    }
+    .main {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+    }  
+    .text {
+        width: 100%;
+        display: block;
+        margin-bottom: 30px;
+        text-align: justify;
+    }
+    .subheader {
+        width: 100%;
+        display: block;
+        margin-bottom: 30px;
+        text-align: justify;
+        }
+    .pics {
+        margin-bottom: 10px;
+        width: 100%;
+        display: inline;
+        object-fit: cover;
+        float: left;
+    }
+}
+@media (min-width: 651px) and (max-width: 1330px) {
+    h1 {
+         font-size: 5rem;
+    }
+    .main {
+        flex: 1;
+        display: flex;
+        flex-direction: row;
+    }
+    .card{
+        margin-right: 50px;
+    }
+    .text {
+        width: 100%;
+        display: block;
+        margin-right: 50px;
+        text-align: justify;
+    }
+    .subheader {
+        width: 100%;
+        display: block;
+        margin-bottom: 30px;
+        text-align: justify;
+        }
+    .pics {
+        margin-bottom: 10px;
+        width: 100%;
+        display: inline;
+        object-fit: cover;
+        float: left;
+    }
+}
